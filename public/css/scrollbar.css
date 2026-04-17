@@ -1,0 +1,15 @@
+/* Menghilangkan scrollbar namun tetap memungkinkan scroll */
+html, body {
+    overflow: auto;
+    height: 100%;
+}
+
+/* Menyembunyikan scrollbar di semua browser */
+body {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
